@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/bike.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 71px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000080;
+    padding-right: 275px;
+    padding-left: 50px;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 119px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/bike.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container_rel {
+    position: relative;
+}

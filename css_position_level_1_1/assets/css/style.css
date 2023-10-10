@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../font/Poppins-Bold.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins-Regular";
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/northernlights.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h1 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.headline {
+    position: absolute;
+    color: #fff;
+    right: 20%;
+    top: 30%;
+    text-align: right;
+}
+
+p {
+    text-transform: lowercase;
+}
